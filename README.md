@@ -28,7 +28,15 @@ This repository uses Git Large File Storage (Git LFS) to manage large files (e.g
 ```
 
 ### 5. Open the Project Folder with VSCode
+#### **For Linux (Ubuntu/Debian):**
 ```bash
    cd ~/MusicGenreClassifier
-   code .
+```
+#### **For Windows:**
+```bash
+  cd %USERPROFILE%\MusicGenreClassifier
+```
+Launch VSCode
+```bash
+  code .
 ```
