@@ -40,3 +40,31 @@ Launch VSCode
 ```bash
   code .
 ```
+
+### 6. Create Virtual Environment and Install Dependencies
+```bash
+   python -m venv venv
+```
+or
+```bash
+   python3 -m venv venv
+```
+
+#### Activate Virtual Environment
+#### **For Linux (Ubuntu/Debian):**
+```bash
+   source venv/bin/activate
+```
+#### **For Windows:**
+```bash
+  venv\Scripts\activate
+```
+#### Upgrade pip
+```bash
+   pip install --upgrade pip
+```
+
+#### Install Libraries
+```bash
+   pip install -r requirements.txt
+```
